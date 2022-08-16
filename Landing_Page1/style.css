@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+      margin: 0;
+      box-sizing: border-box;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+}
+body{
+      background-image: url('background.jpg') ;
+}
+.titles{
+      padding-top: 120px;
+      padding-bottom: 50px;
+}
+.mainTitle{
+      color: #fff;
+      display: block;
+      text-align:center;
+      font-size: 50px;
+      padding: 5px;
+}
+.subTitle{
+      color: #fff;
+      display: block;
+      text-align:center;
+      font-weight: 350;
+      padding: 5px;
+}
+.buttons{
+      display: flex;
+      justify-content: center;
+}
+.button{
+      display: inline-block;
+      height: 45px;
+      color: #000;
+      border: 0px solid black ;
+      font-size: 15px;
+      border-radius: 25px;
+      font-weight: 510;
+      letter-spacing :0.5px;
+      text-transform: uppercase;
+      margin: 5px;
+      cursor: pointer;
+      transition: background-color 0.5s ease;
+}
+.button1{
+      background-color: #ecce63;
+      width:220px;
+}
+.button2{
+      background-color: #ffffff;
+      width:170px;
+}
+.button1:hover{
+      background-color: hsla(47, 78%, 66%, 0.644);
+}
+.button2:hover{
+      background-color: rgba(255, 255, 255, 0.644);
+}
+header{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin:5px;
+}
+header .logo{
+      display:inline-block;
+      margin-left: 20px; 
+      margin-right: auto;
+      cursor: pointer;
+}
+header div img{
+      margin: 0;
+}
+
+.navbar{
+      display: flex;
+
+}
+
+.navbar a,li{
+      color: #fff;
+      text-decoration: none;
+      list-style-type: none;
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 450;
+      transition: color 0.3s ease;
+}
+.navbar li{
+      margin: 10px 15px;
+
+}
+
+.social ul li{
+      font-size: 16px;
+      margin: 10px;
+      padding: 5px;
+      cursor: pointer;
+      transition: color 0.3s ease;
+}
+.social ul li:hover{
+      color: rgba(214, 214, 214, 0.674);
+}
+.navbar ul li a:hover{
+      color: rgba(214, 214, 214, 0.674);
+}
+hr{
+      border-top: 0.1px solid #fdfdfd2e;
+      height: 0.1px;
+      border-bottom: 0px;
+}
